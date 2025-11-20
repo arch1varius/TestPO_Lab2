@@ -1,0 +1,13 @@
+{
+  "name": "materio-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "playwright": "1.56.1"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "install-browsers": "npx playwright install --with-deps"
+  }
+}
